@@ -5,9 +5,17 @@ Official repository for [https://www.facebook.com/groups/vec4glsl/](https://www.
 
 ### Frameworks
 
-* https://github.com/vaneenige/phenomenon
-* https://www.martin-laxenaire.fr/libs/curtainsjs/
-* https://veda.gl/vedajs/
+* https://threejs.org/
+  - https://veda.gl/vedajs/ - nice for Shader Art
+  - https://whs.io/
+* https://www.babylonjs.com/ - complete JavaScript framework for building 3D games and experiences with HTML5, WebGL, WebVR and Web Audio
+* http://regl.party/ - declarative and stateless webgl
+
+* low-level
+  - http://twgljs.org/
+  - https://github.com/search?l=JavaScript&q=nanogl&type=Repositories - nanoGL
+  - https://github.com/vaneenige/phenomenon - phenomenon ( nice for fragment shaders)
+  - https://www.martin-laxenaire.fr/libs/curtainsjs/ - WebGL transitions focused
 
 ### Tools
 
