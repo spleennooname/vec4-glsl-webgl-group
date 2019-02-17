@@ -11,7 +11,6 @@ Official repository for [https://www.facebook.com/groups/vec4glsl/](https://www.
   - https://whs.io/
 - https://www.babylonjs.com/
 - http://regl.party/ - declarative and stateless webgl
-
 - low-level
   * http://twgljs.org/
   * https://github.com/search?l=JavaScript&q=nanogl&type=Repositories - NanoGL
@@ -36,7 +35,6 @@ Official repository for [https://www.facebook.com/groups/vec4glsl/](https://www.
   * https://www.shadertoy.com/view/Md23DV - nice interactive tutorial for GLSL
   * https://webglfundamentals.org/webgl/lessons/webgl-anti-patterns.html
   * http://immersivemath.com/ila/index.html
-
 - Advanced (maths, tips, optimizations)
   * https://webglfundamentals.org/ - must-have from Greggman/TwglJS
   * https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_on_the_web/GLSL_Shaders
@@ -76,9 +74,6 @@ A list including resources / tools/ editors for GLSL prototyping:
 * https://www.gsn-lib.org/docs/nodes/ShaderPluginNode.php
 * https://hexler.net/software/kodelifes
 * https://shadergif.com/
-
-### Visual Editors
-
 * https://cables.gl/home
 
 ### WebGL2
@@ -86,17 +81,12 @@ A list including resources / tools/ editors for GLSL prototyping:
 * https://webgl2fundamentals.org/webgl/lessons/webgl1-to-webgl2.html
 * https://github.com/shrekshao/webgl2examples
 
-### Books
-
-* [WebGL reference card ](https://github.com/spleennooname/vec4-glsl-webgl-group/blob/master/books/webgl-reference-card-1_0.pdf)
-* []()
-
 ### Raymarching
 
 * http://www.michaelwalczyk.com/blog/2017/5/25/ray-marching
 * http://mercury.sexy/hg_sdf/
 
-### WebGL && Fonts
+### Text && Fonts
 
 * https://webglfundamentals.org/webgl/lessons/webgl-text-html.html
 * https://webglfundamentals.org/webgl/lessons/webgl-text-canvas2d.html
@@ -113,3 +103,7 @@ A list including resources / tools/ editors for GLSL prototyping:
 ### Case Studies
 
 * Curated [case-study collection](https://github.com/luruke/awesome-casestudy) by [@luruke](https://github.com/luruke)
+
+### Books
+
+* [WebGL reference card ](https://github.com/spleennooname/vec4-glsl-webgl-group/blob/master/books/webgl-reference-card-1_0.pdf)
