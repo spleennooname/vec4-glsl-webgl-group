@@ -9,6 +9,7 @@ Official repository for [https://www.facebook.com/groups/vec4glsl/](https://www.
   * https://threejs.org/ - THE WebGl Framework
   - https://veda.gl/vedajs/ - useful for Shader Art
   - https://whs.io/
+  - https://aframe.io/ - A framework useful to build WebVR experiences
 - https://www.babylonjs.com/
 - http://regl.party/ - declarative and stateless webgl
 - low-level
