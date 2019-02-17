@@ -5,17 +5,24 @@ Official repository for [https://www.facebook.com/groups/vec4glsl/](https://www.
 
 ### Frameworks
 
-- complete
-  * https://threejs.org/ - THE WebGl Framework
+* complete
+  - https://threejs.org/ - THE WebGl Framework
   - https://veda.gl/vedajs/ - useful for Shader Art
   - https://whs.io/
-- https://www.babylonjs.com/
-- http://regl.party/ - declarative and stateless webgl
-- low-level
-  * http://twgljs.org/
-  * https://github.com/search?l=JavaScript&q=nanogl&type=Repositories - NanoGL
-  * https://github.com/vaneenige/phenomenon - nice for fragment shaders
-  * https://www.martin-laxenaire.fr/libs/curtainsjs/ - WebGL transitions focused
+  - https://aframe.io/ - A framework useful to build WebVR experiences
+  - https://www.babylonjs.com/
+  - http://regl.party/ - declarative and stateless webgl
+  - https://cables.gl/ - Online WebGL Visual Programming
+* low-level
+  - http://twgljs.org/
+  - https://github.com/search?l=JavaScript&q=nanogl&type=Repositories - NanoGL
+  - https://github.com/vaneenige/phenomenon - nice for fragment shaders
+  - https://www.martin-laxenaire.fr/libs/curtainsjs/ - WebGL transitions focused
+
+### Engines
+
+* https://playcanvas.com/ - Game engine with online editor (free for public projects)
+
 
 ### Tools
 
@@ -35,6 +42,8 @@ Official repository for [https://www.facebook.com/groups/vec4glsl/](https://www.
   * https://www.shadertoy.com/view/Md23DV - nice interactive tutorial for GLSL
   * https://webglfundamentals.org/webgl/lessons/webgl-anti-patterns.html
   * http://immersivemath.com/ila/index.html
+- Videos
+  * https://www.youtube.com/watch?v=wHdK1Mtuhm8&list=PLMlvA2UVVK3n26u5O7KFs1RbSV6dAHB0g - Introduction to some Three.js concepts ITA
 - Advanced (maths, tips, optimizations)
   * https://webglfundamentals.org/ - must-have from Greggman/TwglJS
   * https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_on_the_web/GLSL_Shaders
