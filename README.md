@@ -3,21 +3,43 @@ VEC4
 
 Official repository for [https://www.facebook.com/groups/vec4glsl/](https://www.facebook.com/groups/vec4glsl/)
 
-### Frameworks
+This is a curated list about WebGL / GLSL.
 
-* complete
-  - https://threejs.org/ - THE WebGl Framework
-  - https://veda.gl/vedajs/ - useful for Shader Art
-  - https://whs.io/
-  - https://aframe.io/ - A framework useful to build WebVR experiences
-  - https://www.babylonjs.com/
-  - http://regl.party/ - declarative and stateless webgl
-  - https://cables.gl/ - Online WebGL Visual Programming
-* low-level
-  - http://twgljs.org/
-  - https://github.com/search?l=JavaScript&q=nanogl&type=Repositories - NanoGL
-  - https://github.com/vaneenige/phenomenon - nice for fragment shaders
-  - https://www.martin-laxenaire.fr/libs/curtainsjs/ - WebGL transitions focused
+## What is WebGL
+
+WebGL (Web Graphics Library) is a JavaScript API for rendering interactive 3D computer graphics and 2D graphics within
+any compatible web browser without the use of plug-ins. WebGL is integrated completely into all the web standards
+of the browser allowing GPU accelerated usage of physics and image processing and effects as part of the web page canvas.
+
+WebGL elements can be mixed with other HTML elements and composited with other parts of the page or page background.
+WebGL programs consist of control code written in JavaScript and shader code that is executed on a computer's Graphics
+Processing Unit (GPU).
+
+## Contents
+* [Frameworks](#frameworks)
+* [Tools](#tools)
+* [Learning](#webgl)
+* [WebGL 2](#webgl-2)
+* [GLSL editors](#glsl-editors)
+* [Raymarching](#raymarching)
+* [Text && Fonts](#text-fonts)
+* [Selected Case Studies](#case-studies)
+* [Text && Fonts](#books)
+
+## Frameworks
+
+> Relevant frameworks dealing with WebGL
+
+- complete
+  * https://threejs.org/ - THE WebGl Framework
+    - https://veda.gl/vedajs/ - useful for Shader Art
+    - https://whs.io/ - Framework for developing 3D web apps with physics.
+  * https://www.babylonjs.com/
+- http://regl.party/ - declarative and stateless webgl
+- low-level
+  * http://twgljs.org/ - using the WebGL API less verbose
+  * https://github.com/search?l=JavaScript&q=nanogl&type=Repositories - NanoGL
+  * https://github.com/vaneenige/phenomenon - low-level WebGL library, particles-addicted
 
 ### Engines
 
@@ -26,10 +48,25 @@ Official repository for [https://www.facebook.com/groups/vec4glsl/](https://www.
 
 ### Tools
 
-* https://webglstats.com/ - The statistics on this site help WebGL developers make decisions about hardware capabilities.
-* http://webglreport.com/ - Check your WebGL client support,
+> Specific libraries
 
-### Learning
+  * [CurtainsJS](https://www.martin-laxenaire.fr/libs/curtainsjs/) - WebGL transitions focused lib
+  * [glMatrix](http://glmatrix.net/) - Javascript matrix and vector library for high performance WebGL apps.
+  * [Sylvester](http://sylvester.jcoglan.com/) - Sylvester is a vector, matrix and geometry library for JavaScript.
+
+
+## Tools
+
+> Tools for development and debugging WebGL
+
+* https://webglstats.com/ - The statistics on this site help WebGL developers make decisions about hardware capabilities.
+* http://webglreport.com/ - Check your WebGL client support
+* [GLSL Shader Editor Extension](https://github.com/spite/ShaderEditorExtension) - Chrome DevTools extension to help you edit shaders live in the browser.
+* [Spector.js Extension](https://chrome.google.com/webstore/detail/spectorjs/denbgaamihkadbghdceggmchnflmhpmk) - Explore and Troubleshoot your WebGL and WebGL2 scenes easily.
+* [Webgl Insight](https://github.com/3Dparallax/insight) - Chrome extension WebGL debugging toolkit providing a variety of capabilities.
+
+
+## Learning
 
 - Basics
   * https://thebookofshaders.com/
@@ -64,7 +101,7 @@ Official repository for [https://www.facebook.com/groups/vec4glsl/](https://www.
   * https://alastaira.wordpress.com/2015/08/07/unity-shadertoys-a-k-a-converting-glsl-shaders-to-cghlsl/  - Unity Related
   * https://medium.com/@Zadvorsky/webgl-masking-composition-75b82dd4cdfd
 
-### GLSL editors
+## GLSL editors
 
 A list including resources / tools/ editors for GLSL prototyping:
 
@@ -85,17 +122,17 @@ A list including resources / tools/ editors for GLSL prototyping:
 * https://shadergif.com/
 * https://cables.gl/home
 
-### WebGL2
+## WebGL2
 
 * https://webgl2fundamentals.org/webgl/lessons/webgl1-to-webgl2.html
 * https://github.com/shrekshao/webgl2examples
 
-### Raymarching
+## Raymarching
 
 * http://www.michaelwalczyk.com/blog/2017/5/25/ray-marching
 * http://mercury.sexy/hg_sdf/
 
-### Text && Fonts
+## Text && Fonts
 
 * https://webglfundamentals.org/webgl/lessons/webgl-text-html.html
 * https://webglfundamentals.org/webgl/lessons/webgl-text-canvas2d.html
@@ -109,10 +146,10 @@ A list including resources / tools/ editors for GLSL prototyping:
 * https://github.com/donmccurdy/msdf-bmfont-web
 * https://github.com/Chlumsky/msdfgen
 
-### Case Studies
+## Case Studies
 
 * Curated [case-study collection](https://github.com/luruke/awesome-casestudy) by [@luruke](https://github.com/luruke)
 
-### Books
+## Books
 
 * [WebGL reference card ](https://github.com/spleennooname/vec4-glsl-webgl-group/blob/master/books/webgl-reference-card-1_0.pdf)
