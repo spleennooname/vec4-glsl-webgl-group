@@ -98,7 +98,7 @@ Here a comparision
   * [Context Loss & Preloading](https://medium.com/@mattdesl/non-intrusive-webgl-cebd176c281d#.gyc6h9mr5) - How to manage WebGL when you run into the dreaded context lost.
   * https://www.youtube.com/watch?v=wHdK1Mtuhm8&list=PLMlvA2UVVK3n26u5O7KFs1RbSV6dAHB0g - Video introduction to some Three.js concepts (ITA)
 
-###  Advanced (tips and optimizations)
+### Advanced (tips and optimizations)
 
   * https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_on_the_web/GLSL_Shaders
   * http://www.iquilezles.org/www/index.htm - Rendering techniques, useful maths, coding hacks.
