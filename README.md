@@ -5,8 +5,6 @@ Official repository for [https://www.facebook.com/groups/vec4glsl/](https://www.
 
 This is a curated list about WebGL / GLSL.
 
-[<img src="webgl_logo.png" align="right" width="175">](https://www.khronos.org/webgl/)
-
 ## Contents
 * [Frameworks](#frameworks)
 * [Libraries](#libraries)
@@ -26,10 +24,10 @@ This is a curated list about WebGL / GLSL.
 > Relevant frameworks dealing with WebGL
 
 - Complete
-  * https://threejs.org/ - THE WebGl Framework
+  * [ThreeJS](https://threejs.org/) - THE WebGl Framework. A cross-browser JavaScript library and Application Programming Interface (API) used to create and display animated 3D computer graphics in a web
     - [VedaJS](https://veda.gl/vedajs/) - Framework ThreeJS-based, shader-art oriented
     - [Whitestorm])(https://whs.io/) - Framework ThreeJS-base
-  * [Babylon](https://www.babylonjs.com/) -
+  * [Babylon](https://www.babylonjs.com/) - Complete JavaScript framework for building 3D games and experiences with HTML5, WebGL, WebVR, WebXR and Web Audio
   * [Playcanvas](https://playcanvas.com/) - Game engine with online editor (free for public projects)
 - [RegGL](http://regl.party/) - declarative and stateless webgl
 - Low-level, more vanilla approach
