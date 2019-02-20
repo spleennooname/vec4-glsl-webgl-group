@@ -28,19 +28,22 @@ This is a curated list about WebGL / GLSL.
 
 > Relevant frameworks dealing with WebGL
 
-- Complete
+### Complete
+
   * [ThreeJS](https://threejs.org/) - THE WebGl Framework. A cross-browser JavaScript library and Application Programming Interface (API) used to create and display animated 3D computer graphics in a web
     - [VedaJS](https://veda.gl/vedajs/) - Framework ThreeJS-based, shader-art oriented
     - [Whitestorm](https://whs.io/) - Framework ThreeJS-base
   * [Babylon](https://www.babylonjs.com/) - Complete JavaScript framework for building 3D games and experiences with HTML5, WebGL, WebVR, WebXR and Web Audio
   * [Playcanvas](https://playcanvas.com/) - Game engine with online editor (free for public projects)
 - [RegGL](http://regl.party/) - declarative and stateless webgl
-- Low-level, more vanilla approach
+
+### Low-level, more vanilla approach
+
   * [TwglJS](http://twgljs.org/) - using the WebGL API less verbose
   * [nanoGL](https://github.com/search?l=JavaScript&q=nanogl&type=Repositories) - low-level WebGL library
   * [Phenomenon](https://github.com/vaneenige/phenomenon)- low-level WebGL library, particles-addicted
 
-Here a comparision
+Here some comparisons:
 * [ThreeJS vs BabylonJS](https://www.slant.co/versus/11077/11348/~babylon-js_vs_three-js)
 * [ThreeJS vs WhiteStorm](https://www.slant.co/versus/11349/11348/~whitestorm-js_vs_three-js)
 
