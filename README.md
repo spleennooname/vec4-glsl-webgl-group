@@ -5,6 +5,8 @@ Official repository for [https://www.facebook.com/groups/vec4glsl/](https://www.
 
 This is a curated list about WebGL / GLSL.
 
+[<img src="webgl_logo.png" align="right" width="175">](https://www.khronos.org/webgl/)
+
 ## Contents
 * [Frameworks](#frameworks)
 * [Libraries](#libraries)
@@ -14,6 +16,9 @@ This is a curated list about WebGL / GLSL.
 * [GLSL editors](#glsl-editors)
 * [Raymarching](#raymarching)
 * [Text And Fonts](#text-and-fonts)
+* [Books](#books)
+* [References](#references)
+* [Bug Reporting](#bug-reporting)
 * [Selected Case Studies](#case-studies)
 
 ## Frameworks
@@ -22,8 +27,8 @@ This is a curated list about WebGL / GLSL.
 
 - Complete
   * https://threejs.org/ - THE WebGl Framework
-    - https://veda.gl/vedajs/ - Framework Shader-Art oriented
-    - https://whs.io/ - Framework for developing 3D web apps with physics
+    - [VedaJS](https://veda.gl/vedajs/) - Framework ThreeJS-based, shader-art oriented
+    - [Whitestorm])(https://whs.io/) - Framework ThreeJS-base
   * [Babylon](https://www.babylonjs.com/) -
   * [Playcanvas](https://playcanvas.com/) - Game engine with online editor (free for public projects)
 - [RegGL](http://regl.party/) - declarative and stateless webgl
@@ -32,7 +37,9 @@ This is a curated list about WebGL / GLSL.
   * [nanoGL](https://github.com/search?l=JavaScript&q=nanogl&type=Repositories) - low-level WebGL library
   * [Phenomenon](https://github.com/vaneenige/phenomenon)- low-level WebGL library, particles-addicted
 
-Here a comparision [ThreeJS vs BabylonJS](https://www.slant.co/versus/11077/11348/~babylon-js_vs_three-js)
+Here a comparision
+* [ThreeJS vs BabylonJS](https://www.slant.co/versus/11077/11348/~babylon-js_vs_three-js)
+* [ThreeJS vs WhiteStorm](https://www.slant.co/versus/11349/11348/~whitestorm-js_vs_three-js)
 
 ### Libraries
 
@@ -51,6 +58,29 @@ Here a comparision [ThreeJS vs BabylonJS](https://www.slant.co/versus/11077/1134
 * [GLSL Shader Editor Extension](https://github.com/spite/ShaderEditorExtension) - Chrome DevTools extension to help you edit shaders live in the browser.
 * [Spector.js Extension](https://chrome.google.com/webstore/detail/spectorjs/denbgaamihkadbghdceggmchnflmhpmk) - Explore and Troubleshoot your WebGL and WebGL2 scenes easily.
 * [Webgl Insight](https://github.com/3Dparallax/insight) - Chrome extension WebGL debugging toolkit providing a variety of capabilities.
+
+> Tools for development and debugging WebGL
+
+* [Khronos Dev Tools](https://github.com/KhronosGroup/WebGLDeveloperTools) - Useful WebGL developer tools, intended to be used as an ES6 module.
+* [Spector.js](https://spector.babylonjs.com/) - Agnostic JavaScript framework for exploring and troubleshooting your WebGL scenes.
+* [WebGL Inspector](http://benvanik.github.io/WebGL-Inspector/) - Tool inspired by gDEBugger and PIX with the goal of making the development of advanced WebGL applications easier.
+* [WebGl Playground](http://jessevdk.github.io/webgl-play/) - The editor lets you work on the JavaScript code and the GLSL vertex/fragment shaders (if you have any) at the same time in a convenient way. Everything is organized, formatted and highlighted properly, just as you would like.
+* [WebGL Report](http://webglreport.com/?v=1) - Way to view the details of what your browser supports for WebGL.
+* [WebGL Support Stats](http://webglstats.com/) - Interactive dashboard showing the support for WebGL features in different browsers and devices.
+* [WebGL Texture Tester](http://toji.github.io/texture-tester/) - Attempts to load one of every texture format supported by WebGL, intended to quickly show which formats your browser/device supports.
+* [Web Tracing Framework](http://google.github.io/tracing-framework/index.html) - Set of libraries, tools, and visualizers for the tracing and investigation of complex web applications.
+
+#### Chrome Specific Tools/Debugger
+
+* [GLSL Shader Editor Extension](https://github.com/spite/ShaderEditorExtension) - Chrome DevTools extension to help you edit shaders live in the browser.
+* [Spector.js Extension](https://chrome.google.com/webstore/detail/spectorjs/denbgaamihkadbghdceggmchnflmhpmk) - Explore and Troubleshoot your WebGL and WebGL2 scenes easily.
+* [Webgl Insight](https://github.com/3Dparallax/insight) - Chrome extension WebGL debugging toolkit providing a variety of capabilities.
+
+#### Firefox Specific Tools/Debugger
+
+* [Canvas Debugger](https://hacks.mozilla.org/2014/03/introducing-the-canvas-debugger-in-firefox-developer-tools/) - Quick tutorial how to use Firefox's developer tools to debug WebGL Shaders.
+* [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools) - The official list of all of Firefox's debugger tools.
+
 
 ## WebGL
 
@@ -92,6 +122,12 @@ Here a comparision [ThreeJS vs BabylonJS](https://www.slant.co/versus/11077/1134
 ## GLSL editors
 
 > resources / tools/ editors for GLSL prototyping
+>
+> NOTE: [WebGL must conform to The OpenGL ES Shading Language, Version 1.00](https://www.khronos.org/registry/webgl/specs/1.0.3/#4.3)
+>
+> [Official Specs for GLSL Version 1.00](https://www.khronos.org/registry/OpenGL/specs/es/2.0/GLSL_ES_Specification_1.00.pdf)
+>
+> [Official Specs for Open ES Version 2.0.25](https://www.khronos.org/registry/OpenGL/specs/es/2.0/es_full_spec_2.0.pdf)
 
 * http://www.shadertoy.com From IQ ( Inigo Quilez ) THE place for Shader
 * http://glslsandbox.com/  just like ShaderToy, live shader editor
@@ -119,8 +155,8 @@ Here a comparision [ThreeJS vs BabylonJS](https://www.slant.co/versus/11077/1134
 
 > about raymarching
 
-* http://www.michaelwalczyk.com/blog/2017/5/25/ray-marching
-* http://mercury.sexy/hg_sdf/
+* http://www.michaelwalczyk.com/blog/2017/5/25/ray-marching - Quick tutorial on setting up a basic ray marching shader.
+* http://mercury.sexy/hg_sdf/ - A GLSL library for building signed distance functions (SDF)
 
 ## Text And Fonts
 
@@ -137,6 +173,36 @@ Here a comparision [ThreeJS vs BabylonJS](https://www.slant.co/versus/11077/1134
 * http://pixelscommander.com/polygon/pixi-sdf-text/demo/
 * https://github.com/donmccurdy/msdf-bmfont-web
 * https://github.com/Chlumsky/msdfgen
+
+## References
+
+> WebGL references
+
+* [Google Project ANGLE](https://github.com/google/angle) - Default WebGL backend for both Google Chrome and Mozilla Firefox on Windows platforms.
+* [Khronos Official Wiki](https://www.khronos.org/webgl/wiki/) - The official wiki for WebGL.
+
+## Bug Reporting
+
+> Reporting bugs helps everyone in long run
+
+* [Chrome Bug Report](https://bugs.chromium.org/p/chromium/issues/list) - Chrome related bugs
+* [Khronos Github Issue Page](https://github.com/KhronosGroup/WebGL/issues) - Spec or Conformance related bugs
+* [Mozilla BugZilla](https://bugzilla.mozilla.org) - Firefox related bugs
+* [WebKit Bugzilla](https://bugs.webkit.org/enter_bug.cgi?assigned_to=cmarrin%40apple.com&attachurl=&blocked=&bug_file_loc=http%3A%2F%2F&bug_severity=Normal&bug_status=NEW&comment=&component=WebGL&contenttypeentry=&contenttypemethod=autodetect&contenttypeselection=text%2Fplain&data=&dependson=&description=&flag_type-1=X&flag_type-3=X&form_name=enter_bug&keywords=&maketemplate=Remember%20values%20as%20bookmarkable%20template&op_sys=Mac%20OS%20X%2010.5&priority=P2&product=WebKit&rep_platform=PC&short_desc=&version=528%2B%20%28Nightly%20build%29) - Safari related bugs
+
+
+## Books
+
+> Popular books about WebGL
+
+* [Interactive Computer Graphics: A Top-Down Approach with WebGL](https://www.amazon.com/Interactive-Computer-Graphics-Top-Down-Approach/dp/0133574849) by **Edward Angel** and **Dave Shreiner** - Suitable for undergraduate students in computer science and engineering, for students in other disciplines who have good programming skills, and for professionals interested in computer animation and graphics using the latest version of WebGL.
+* [Professional WebGL Programming](https://www.amazon.com/Professional-WebGL-Programming-Developing-Graphics/dp/1119968860) by **Andreas Anyuru** - Everything you need to know about developing hardware-accelerated 3D graphics with WebGL.
+* [Programming 3D Applications with HTML5 and WebGL](https://www.amazon.com/Programming-Applications-HTML5-WebGL-Visualization/dp/1449362966) by **Tony Parisi** - Create high-performance, visually stunning 3D applications for the Web, using HTML5 and related technologies such as CSS3 and WebGL—the emerging web graphics standard.
+* [WebGL Beginner's guide](https://www.amazon.com/WebGL-Beginners-Guide-Diego-Cantor/dp/184969172X) by **Diego Cantor** and **Brandon Jones** - For JavaScript developer who wants to take the plunge into 3D web development via WebGL.
+* [WebGL Hotshot](https://www.amazon.com/WebGL-Hotshot-Mitch-Williams-ebook/dp/B00KLAJ65Y) by **Mitch Williams** - For web designer looking to expand your knowledge of 3D graphics concepts and broaden your existing skill set.
+* [WebGL Insights](https://github.com/WebGLInsights/WebGLInsights.github.io/releases/download/v1.0/WebGL.Insights.-.Patrick.Cozzi.pdf) by **Patrick Cozzi** - Presents real-world techniques for intermediate and advanced WebGL developers by assembling contributions from experienced WebGL engine and application developers, GPU vendors, browser developers, researchers, and educators.
+  * [Book's Personal Site](http://www.webglinsights.com/)
+* [WebGL Programming Guide: Interactive 3D Graphics Programming with WebGL](https://www.amazon.com/WebGL-Programming-Guide-Interactive-Graphics/dp/0321902920) by **Kouichi Matsuda** and **Rodger Lea** - WebGL Programming Guide will help you get started quickly with interactive WebGL 3D programming, even if you have no prior knowledge of HTML5, JavaScript, 3D graphics, mathematics, or OpenGL.
 
 ## Case Studies
 
