@@ -59,6 +59,9 @@ Here some comparisons:
 
 > Tools for development and debugging WebGL
 
+* [Shaping Signals Functions](http://www.iquilezles.org/www/articles/functions/functions.htm) - When writing shader or during any procedural creation process (texturing, modeling, shading, lighting, animating...) you often find yourself modifying signals in different ways so they behave the way you want.
+* [Graph Toy](http://www.iquilezles.org/apps/graphtoy/) - Useful toy for shaping functions
+* [Detect GPU](https://github.com/TimvanScherpenzeel/detect-gpu) - Classify GPU's based on their benchmark score in order to provide an adaptive experience.
 * [GLSL Shader Editor Extension](https://github.com/spite/ShaderEditorExtension) - Chrome DevTools extension to help you edit shaders live in the browser.
 * [Spector.js Extension](https://chrome.google.com/webstore/detail/spectorjs/denbgaamihkadbghdceggmchnflmhpmk) - Explore and Troubleshoot your WebGL and WebGL2 scenes easily.
 * [Webgl Insight](https://github.com/3Dparallax/insight) - Chrome extension WebGL debugging toolkit providing a variety of capabilities.
@@ -87,6 +90,7 @@ Here some comparisons:
 > Resources for learning WebGL / GLSL and relateds
 
 ### Basics
+W
   * https://thebookofshaders.com/ - Mandatory entry-point for GLSL from [Patricio Gonzalez Vivo](https://github.com/patriciogonzalezvivo)
   * https://webglfundamentals.org/ - must-have WebGL journey from [Greggman](https://github.com/greggman)
   * https://gamedevelopment.tutsplus.com/tutorials/a-beginners-guide-to-coding-graphics-shaders--cms-23313
