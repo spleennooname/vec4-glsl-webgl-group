@@ -1,4 +1,4 @@
-VEC4
+V E C 4 - CREATIVE CODING / WEBGL / GLSL
 ========
 
 Official repository for [https://www.facebook.com/groups/vec4glsl/](https://www.facebook.com/groups/vec4glsl/)
@@ -32,7 +32,7 @@ This is a curated list about WebGL / GLSL.
 
   * [ThreeJS](https://threejs.org/) - THE WebGl Framework. A cross-browser JavaScript library and Application Programming Interface (API) used to create and display animated 3D computer graphics in a web
     - [VedaJS](https://veda.gl/vedajs/) - Framework ThreeJS-based, shader-art oriented
-    - [Whitestorm](https://whs.io/) - Framework ThreeJS-base
+    - [Whitestorm](https://whs.io/) - Framework ThreeJS-based
   * [Babylon](https://www.babylonjs.com/) - Complete JavaScript framework for building 3D games and experiences with HTML5, WebGL, WebVR, WebXR and Web Audio
   * [Playcanvas](https://playcanvas.com/) - Game engine with online editor (free for public projects)
 - [RegGL](http://regl.party/) - declarative and stateless webgl
@@ -89,20 +89,20 @@ Here some comparisons:
 
 > Resources for learning WebGL / GLSL and relateds
 
-### Basics
-W
-  * https://thebookofshaders.com/ - Mandatory entry-point for GLSL from [Patricio Gonzalez Vivo](https://github.com/patriciogonzalezvivo)
-  * https://webglfundamentals.org/ - must-have WebGL journey from [Greggman](https://github.com/greggman)
-  * https://gamedevelopment.tutsplus.com/tutorials/a-beginners-guide-to-coding-graphics-shaders--cms-23313
+### Learning
+
+  * [The Book of Shaders](https://thebookofshaders.com/) - Mandatory entry-point for GLSL, by [Patricio Gonzalez Vivo](https://github.com/patriciogonzalezvivo)
+  * [WebGL Fundamentals](https://webglfundamentals.org/) - Must-have WebGL journey, by [Greggman](https://github.com/greggman)
+  * [A Beginners Guide](https://gamedevelopment.tutsplus.com/tutorials/a-beginners-guide-to-coding-graphics-shaders--cms-23313) - Beginner guide for coding shaders.
   * https://www.scratchapixel.com/ - Learn Computer Graphics From Scratch!
-  * https://medium.com/@Zadvorsky/into-vertex-shaders-594e6d8cd804 - Introduction to Vertex Shaders && rendering pipeline
-  * https://aerotwist.com/tutorials/an-introduction-to-shaders-part-1/ - Introduction to shaders
-  * http://www.webglacademy.com/ - Learn WebGL and 3D algorithmic for free
-  * https://www.tutorialspoint.com/webgl/index.htm - For all those readers who want to learn the basics of WebGL programming
-  * [Into Vertex Shaders](https://medium.com/@Zadvorsky/into-vertex-shaders-594e6d8cd804)- NHigh-level overview of some key aspects of the 3D graphics pipeline.
+  * https://aerotwist.com/tutorials/an-introduction-to-shaders-part-1/ - Introduction to shaders.
+  * http://www.webglacademy.com/ - Learn WebGL and 3D algorithmic for free.
+  * https://www.tutorialspoint.com/webgl/index.htm - For all those readers who want to learn the basics of WebGL programming.
+  * [Into Vertex Shaders](https://medium.com/@Zadvorsky/into-vertex-shaders-594e6d8cd804) - High-level overview of some key aspects of the 3D graphics pipeline, [@zadvorsky](https://twitter.com/zadvorsky)
   * [GLSL Shader Tutorial](https://www.shadertoy.com/view/Md23DV) - interactive fragment-shader tutorial
-  * [Webgl Antipatterns tips](https://webglfundamentals.org/webgl/lessons/webgl-anti-patterns.html) - WebGL Antipatterns
-  * [Context Loss & Preloading](https://medium.com/@mattdesl/non-intrusive-webgl-cebd176c281d#.gyc6h9mr5) - How to manage WebGL when you run into the dreaded context lost.
+  * [Webgl Antipatterns tips](https://webglfundamentals.org/webgl/lessons/webgl-anti-patterns.html) - WebGL Antipatterns, by [Greggman](https://github.com/greggman)
+  * [Context Loss & Preloading](https://medium.com/@mattdesl/non-intrusive-webgl-cebd176c281d#.gyc6h9mr5) - How to manage WebGL when you run into the dreaded context lost, by [Matt DesLauriers](https://github.com/mattdesl)
+  *[Handling Context Loss & Restore](https://www.khronos.org/webgl/wiki/HandlingContextLost) - Another resource about context lost&&restore.
   * https://www.youtube.com/watch?v=wHdK1Mtuhm8&list=PLMlvA2UVVK3n26u5O7KFs1RbSV6dAHB0g - Video introduction to some Three.js concepts (ITA)
 
 ### Advanced (tips and optimizations)
@@ -111,18 +111,18 @@ W
   * http://www.iquilezles.org/www/index.htm - Rendering techniques, useful maths, coding hacks.
   * https://aerotwist.com/tutorials/an-introduction-to-shaders-part-1/
   * https://blog.demofox.org/
-  * https://medium.com/@luruke/simple-postprocessing-in-three-js-91936ecadfb7
-  * https://www.khronos.org/opengl/wiki/GLSL_Optimizations
-  * from ShaderToy Master [FabriceN](https://www.shadertoy.com/user/FabriceNeyret2) lots of valuable tips:
-    - https://shadertoyunofficial.wordpress.com/
+  * [GLSL Lighting Walktrough](https://github.com/stackgl/glsl-lighting-walkthrough) - provides an overview of the various steps involved in lighting a mesh with a custom GLSL shader.
+  * [WebGL & Mask composition](https://medium.com/@Zadvorsky/webgl-masking-composition-75b82dd4cdfd) by [@zadvorsky](https://twitter.com/zadvorsky)
+  * [Simple Post Processing in ThreeJS](https://medium.com/@luruke/simple-postprocessing-in-three-js-91936ecadfb7) - ThreeJS post-processing sample, by [@luruke](https://github.com/luruke)
+  * [GLSL Optimizations](https://www.khronos.org/opengl/wiki/GLSL_Optimizations) - GLSL tips from Khronos
+  * [ShaderToy Unofficial](https://shadertoyunofficial.wordpress.com/) - lots of valuable tips, by [FabriceN](https://www.shadertoy.com/user/FabriceNeyret2)
     - https://shadertoyunofficial.wordpress.com/2018/04/16/readings-shaders-maths-3d/
     - https://shadertoyunofficial.wordpress.com/2019/01/26/classical-corner-cases/
     - https://shadertoyunofficial.wordpress.com/2019/01/15/case-study-making-dot-pattern-loopless/
-  * https://developer.apple.com/library/archive/documentation/3DDrawing/Conceptual/OpenGLES_ProgrammingGuide/BestPracticesforShaders/BestPracticesforShaders.html#//apple_ref/doc/uid/TP40008793-CH7-SW3
+  * [Best Practices from Apple's guide](https://developer.apple.com/library/archive/documentation/3DDrawing/Conceptual/OpenGLES_ProgrammingGuide/BestPracticesforShaders/BestPracticesforShaders.html#//apple_ref/doc/uid/TP40008793-CH7-SW3)
   * https://www.khronos.org/registry/OpenGL-Refpages/
   * https://www.ronja-tutorials.com/ - Unity Related articles
-  * https://alastaira.wordpress.com/2015/08/07/unity-shadertoys-a-k-a-converting-glsl-shaders-to-cghlsl/  - Unity Related
-  * https://medium.com/@Zadvorsky/webgl-masking-composition-75b82dd4cdfd
+  * https://alastaira.wordpress.com/2015/08/07/unity-shadertoys-a-k-a-converting-glsl-shaders-to-cghlsl/  - Unity Related articles
 
 ## GLSL editors
 
@@ -135,10 +135,10 @@ W
 
 * http://www.shadertoy.com From IQ ( Inigo Quilez ) THE place for Shader
 * http://glslsandbox.com/  just like ShaderToy, live shader editor
-* https://www.vertexshaderart.com/ - from [Greggman](https://github.com/greggman), like ShaderToy, but dedicated to vertex shader computations.
+* https://www.vertexshaderart.com/ - like ShaderToy, but dedicated to vertex shader computations, by [Greggman](https://github.com/greggman)
 * http://www.interactiveshaderformat.com/ - Originally created by VDMX VJ software, it is a interactive version of GLSL.
 * http://www.cdglabs.org/Shadershop/ - From Toby Schachman, interesting approach of visualizing math and glsl functions.
-* [glslEditor](https://github.com/patriciogonzalezvivo/glslEditor) - from [Patricio Gonzalez Vivo](https://github.com/patriciogonzalezvivo) another GLSL shader
+* [glslEditor](https://github.com/patriciogonzalezvivo/glslEditor) - another GLSL shader editor, by [Patricio Gonzalez Vivo](https://github.com/patriciogonzalezvivo)
 * http://shdr.bkcore.com/ From Thibaut Despoulain - simple live shader editor.
 * https://godotengine.org/article/visual-shader-editor-back
 * http://syntopia.github.io/Fragmentarium/
@@ -153,9 +153,9 @@ W
 
 * [WebGL1 to WebGL2](https://webgl2fundamentals.org/webgl/lessons/webgl1-to-webgl2.html) - WebGL1 to WebGL2 migration.
 * [WebGL Examples](https://github.com/shrekshao/webgl2examples) - WebGL2 examples.
-* [PicoGL.js](https://tsherif.github.io/picogl.js/) - Minimal WebGL 2-only rendering library.
+* [PicoGL.js](https://tsherif.github.io/picogl.js/) - Minimal WebGL 2-only rendering library, by [Tarek Sherif](https://github.com/tsherif)
 
-## Raymarching
+## Ray Marching
 
 > about raymarching
 
@@ -193,7 +193,6 @@ W
 * [Khronos Github Issue Page](https://github.com/KhronosGroup/WebGL/issues) - Spec or Conformance related bugs
 * [Mozilla BugZilla](https://bugzilla.mozilla.org) - Firefox related bugs
 * [WebKit Bugzilla](https://bugs.webkit.org/enter_bug.cgi?assigned_to=cmarrin%40apple.com&attachurl=&blocked=&bug_file_loc=http%3A%2F%2F&bug_severity=Normal&bug_status=NEW&comment=&component=WebGL&contenttypeentry=&contenttypemethod=autodetect&contenttypeselection=text%2Fplain&data=&dependson=&description=&flag_type-1=X&flag_type-3=X&form_name=enter_bug&keywords=&maketemplate=Remember%20values%20as%20bookmarkable%20template&op_sys=Mac%20OS%20X%2010.5&priority=P2&product=WebKit&rep_platform=PC&short_desc=&version=528%2B%20%28Nightly%20build%29) - Safari related bugs
-
 
 ## Books
 
